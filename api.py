@@ -2,9 +2,10 @@
 
 import urllib2
 import json
+import getpass
 
 mac_address = input("Enter your Mac Address: ")
-api_key = input("Enter your API_Key: ")
+api_key = getpass.getpass("Enter your API_Key: ")
 url = 'https://api.macaddress.io/v1?apiKey=' + api_key
 final_url = url + "&output=json" + "&search=" + mac_address
 
