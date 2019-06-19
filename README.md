@@ -8,7 +8,7 @@ __Requirement__
 
 ### Steps ###
 - Clone the repository `git clone https://github.com/josfem004/maclookup_apy.git`
-- `cd maclookup_apy.git`
+- `cd maclookup_apy`
 - To run the script 
   `chmod +x api.py && python -i api.py` 
   Enter the Value of the MAC Address and the API Key
