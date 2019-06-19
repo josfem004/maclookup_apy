@@ -14,5 +14,5 @@ __Requirement__
   Enter the Value of the MAC Address and the API Key
 - To run as a container
   - Build docker images by running `docker build -t api/maclookup` which will run against the dockerfile
-  - docker run -it api/maclookup
+  - `docker run -it api/maclookup`
   Enter the Value of the MAC Address and the API Key
