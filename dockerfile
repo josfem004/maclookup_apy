@@ -1,7 +1,5 @@
-FROM python:latest
+FROM python:2.7
 
-WORKDIR ~/maclookup_apy
+ADD api.py /
 
-COPY api.py .
-
-CMD ["api.py"]
+CMD [ "python", "-u", "./api.py"]
